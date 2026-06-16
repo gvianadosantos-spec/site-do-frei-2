@@ -184,7 +184,7 @@ a.home {
     color: white;
     font-size: 1rem;
 
-    margin-top: -1rem;
+    margin-top: -2rem;
 }
 
 .parte3-baixo .alunos-formados, .familias-beneficiadas, .jovens-empregados, .jovens-atendidos, .empresas-beneficiadas{
@@ -194,8 +194,31 @@ a.home {
     align-items: center;
 }
 
+/*---------------------- -Noticias e galeria ---------------*/
+
 .parte4{
     display:flex;
     align-items: center;
     flex-direction: column;
+}
+
+.parte4 h2{
+    font-size: 4rem;
+    color:rgb(19, 121, 189);
+}
+.p4p{
+
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    width: 55rem;
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.f1{
+    display: flex;
+    justify-content:space-around;
 }

@@ -1,0 +1,604 @@
+html{
+    font-size: 16px;
+}
+
+.cima{
+
+    display: flex;
+
+    width:  90%;
+    margin: 0 auto;;
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+    padding: auto;
+    justify-content: space-between;
+    padding: 1.0em;
+    gap: 1rem; 
+    border-radius: 2.5em;
+    border: rgb(93, 180, 238) 0.2rem;
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.2), 
+                        inset -4px -4px 6px rgb(132, 204, 252, 0.8);
+
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+}
+.logo-cima{
+    height: 5rem;
+    font-size: 0.8rem;
+
+    display: flex;
+    justify-content: space-between;
+}   
+
+.logo h2{
+    color: rgb(36, 38, 155)
+}
+
+.botao-cima {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7rem;
+    gap: 2rem;
+
+    margin-right: 5rem;
+}
+.botao a, a.home, a.about, a.cursos, a.noti-gale, a.doe, a.contato {
+    text-decoration: none !important;
+    color: black;
+}
+
+a.home {
+    color: aqua !important;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 5rem;
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 93%;
+    margin-top:9rem;
+
+    border-radius: 2.5em;
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.2), 
+                        inset -4px -4px 6px rgb(132, 204, 252, 0.8);
+
+    position: fixed;
+     z-index: 9999;
+        
+}
+
+.parte2{
+    position: relative;
+}
+
+.parte2 img{
+
+    height: 30rem;
+    width: 70rem;
+
+    border-radius: 1.5rem;
+    margin-top: 7rem;
+    margin-left: 2rem;
+
+}
+
+.parte2-informacoes{
+    background-image:url(./img/fundo-inf-parte2.png) ;
+
+    height: 35rem;
+    width: 35rem;
+
+    position: absolute;
+    margin-left: 45rem;
+    margin-top: -33rem;
+
+    border-radius: 1.5rem;
+
+    font-size: 1.5rem;
+
+    justify-items: center;
+    color: white;
+}
+
+.parte2-informacoes h2, .parte2-informacoes h3, .parte2-informacoes h4{
+    color: rgb(211, 167, 24) !important
+
+}
+
+.parte2-informacoes ul{
+    margin-top: 4.7rem;
+}
+
+.parte2-informacoes h3{
+    margin-top: 3rem;
+}
+
+.parte2-informacoes .t1{
+    margin-right: 7rem;
+}
+
+.parte2-informacoes .t2{
+    margin-left: 7rem;
+}
+
+.parte3{
+    background-image: url(./img/fundo\ da\ parte3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 17rem;
+
+    margin-top: 7rem;
+}
+
+.parte3-cima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.5rem;
+
+    padding: 1rem;
+
+    width: 100%;
+    height: 1rem;
+
+    color: white;
+}
+
+.parte3-baixo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 15rem;
+
+    margin-top: 1rem;
+}
+
+.parte3-baixo img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.parte3-baixo h2{
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+.parte3-baixo h5{
+    color: white;
+    font-size: 1rem;
+
+    margin-top: -1rem;
+}
+
+.parte3-baixo .alunos-formados, .familias-beneficiadas, .jovens-empregados, .jovens-atendidos, .empresas-beneficiadas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte4{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parte4 h2{
+    color: rgb(36, 38, 155);
+    font-size: 2.5rem;
+    margin-top: 7rem;
+}
+
+.parte5-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    gap: 5rem;
+
+}
+
+.img-p5-1{
+    height: 21rem;
+    width: 45%;
+
+}
+
+.img-p5-2{
+    height: 21rem;
+    width: 53%;
+
+}
+
+.parte5-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 20rem;
+
+    margin-top: 4rem;
+}
+
+.parte5-2-1 {
+    height: 26rem;
+    width: 46rem;
+}
+
+.parte5-1-1{
+    height: 35rem;
+    width: 50rem;  
+}
+
+.img-p5-5{
+    height: 30%;
+    width: 100%;
+}
+
+.img-p5-3, .img-p5-4{
+    height: 16rem;
+    width: 49%;
+}
+
+.img-p5-6{
+    height: 25rem;
+    width: 47rem;
+}
+
+.parte6{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.parte6-1{
+    background-color: rgb(212, 187, 40);
+
+    height: 4rem;
+    width: 18rem;  
+    
+    border-radius: 1rem;
+
+    margin-right: 22rem;
+    margin-top: 9rem;
+
+   box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.2), 
+                        inset -4px -4px 6px rgba(226, 240, 27, 0.8);
+
+
+     display: grid;
+     place-items: center;
+
+     position: absolute;
+}
+
+
+
+.parte6-2{
+    background-image: url(./img/fundo-parte6.png);
+
+    height: 13rem;
+    width: 28rem;
+
+    border-radius: 1rem;
+
+      margin-top: 7rem;
+      margin-left: 20rem;
+
+     display: grid;
+    place-items: center;
+}
+
+.parte7 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    gap: 1.5rem;
+    margin-top: 3rem;
+    padding: 1.8rem;
+}
+
+
+.parte7 a {
+    text-decoration: none !important;
+}
+
+
+.parte7-1, .parte7-2, .parte7-3, .parte7-4 {
+    position: relative;
+    display: inline-block;
+}
+
+.img-p7-1, .img-p7-2, .img-p7-3, .img-p7-4 {
+    border-radius: 1.5rem;
+    display: block; 
+}
+
+
+.img-p7-mais {
+    position: absolute;
+    bottom: 3.5rem; 
+    right: 1rem;  
+    border-radius: 50%;
+}
+
+
+.parte7-texte {
+    color: blue; 
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+
+.parte8 {
+  width: 100%;
+  background-color: #f0f5ff; 
+  padding: 60px 20px;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative; 
+  overflow: hidden; 
+}
+
+.parte8 *, .parte8 *::before, .parte8 *::after {
+  box-sizing: border-box;
+}
+
+.parte8-titulo {
+  color: #0f3d8a;
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+}
+
+
+.parte8-seta {
+  position: absolute;
+  top: 20px; 
+  background: transparent;
+  border: none;
+  color: #0f3d8a; 
+  font-size: 3rem; 
+  font-weight: bold; 
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.2s;
+  padding: 10px 20px;
+}
+
+.parte8-seta:hover {
+  transform: scale(1.1); 
+}
+
+.parte8-seta-esq {
+  left: 20px; 
+}
+
+.parte8-seta-dir {
+  right: 20px; 
+}
+.parte8-seta:hover {
+  transform: translateY(-50%) scale(1.2); 
+}
+
+.parte8-seta-esq {
+  left: 2%;
+}
+
+.parte8-seta-dir {
+  right: 2%; 
+}
+
+.parte8-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;
+  min-height: 400px; 
+}
+
+
+.parte8-slide {
+  display: none; 
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  gap: 30px;
+  animation: fadeParte8 0.5s ease-in-out;
+}
+
+.parte8-slide.parte8-ativo {
+  display: flex; 
+}
+
+@keyframes fadeParte8 {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.parte8-slide.parte8-ativo {
+  display: flex;
+}
+
+
+.parte8-2 {
+  width: 35%; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+}
+
+
+.parte8-img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: contain;
+  display: block;
+}
+
+
+.parte8-1 {
+  background-color: #0f3d8a;
+  color: #ffffff;
+  padding: 40px;
+  width: 65%;
+  text-align: left;
+  border-radius: 20px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.parte8-slide.parte8-laranja .parte8-1 {
+  background-color: #f7b749;
+  color: #0f3d8a;
+}
+
+.parte8-texto {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+
+.parte8-linha {
+  border: 0;
+  border-top: 2px solid #ffffff; 
+  margin: 20px 0;
+}
+
+.parte8-slide.parte8-laranja .parte8-linha {
+  border-top: 2px solid #0f3d8a;
+}
+
+.parte8-autor {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+
+.parte8-3 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.parte8-ponto {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #0f3d8a;
+  background-color: transparent;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.parte8-ponto.parte8-ponto-ativo {
+  background-color: #0f3d8a;
+}
+
+
+@media (max-width: 768px) {
+  .parte8-seta {
+    top: 15%; 
+  }
+  .parte8-slide {
+    flex-direction: column; 
+    gap: 0;
+  }
+  .parte8-2 {
+    width: 80%; 
+    margin-bottom: -20px; 
+    z-index: 2;
+  }
+  .parte8-1 {
+    width: 100%;
+    border-radius: 15px;
+    z-index: 1;
+  }
+}
+
+.parte9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte9-1{
+    padding: 2rem;
+    width: 80%;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.parte9-1-2 img{
+    border-radius: 1.5rem;
+}
+
+.parte9-2-2{
+    background-color: rgb(15, 175, 203);
+
+    width: 80%;
+    height: 58rem;
+
+    border-radius: 1.5rem;
+
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;    
+
+        position: relative;
+}
+
+.parte9-2-1 h2{
+    font-size: 2.5rem;
+    margin-top: -0.5rem;
+}
+
+.parte9-2-2 p{
+    padding: 2rem;
+    margin-top: -1.5rem;
+    font-size: 2.5rem;
+}
+
+.parte9-logo{
+    height: 10rem;
+    width: 10rem;
+
+    margin-top: 45rem;
+    margin-left: 26rem;
+    position: absolute;
+
+    opacity: 0.6;
+
+    top: 100;
+}
